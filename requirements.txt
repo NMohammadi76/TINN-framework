@@ -1,0 +1,15 @@
+# Core (all parts)
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+torch>=2.0
+# Part 2 and 3: comparison methods and simulator
+numba>=0.58
+pyddm>=0.8          # pyddm.gddm interface
+bayesflow>=2.0      # Part 2 only; Keras 3 with the torch backend
+keras>=3.0
+# Part 3: reading the .RData file
+pyreadr>=0.5
+# Notebooks
+jupyter
